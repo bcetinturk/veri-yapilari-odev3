@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
-project(veri_yapilari_odev3 C)
+project(veri_yapilari_odev3)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(veri_yapilari_odev3 main.c)
+add_executable(veri_yapilari_odev3
+        CMakeLists.txt
+        main.c)
